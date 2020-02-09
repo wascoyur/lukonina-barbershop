@@ -1,0 +1,279 @@
+/* CSS Document */
+* {
+    padding: 0;
+    margin: 0;
+}
+
+img {
+    border: 0;
+}
+
+body {
+    background: url(images/body-bg.jpg) top repeat-x;
+    font-family: Arial;
+}
+
+.karkas {
+    width: 970px;
+    margin: 0 auto;
+}
+
+.head {
+    background: url("images/head-bg.png") center bottom;
+    overflow: hidden;
+}
+
+.backet {
+    background: url(images/bag.png) left top no-repeat;
+    padding: 20px 0 30px 80px;
+    margin: 8px 0 0 0;
+    float: left;
+}
+
+.backet p {
+    font-size: 20px;
+    color: aliceblue
+}
+
+backet img {
+    margin: 12px 0 0 30px
+}
+
+.logo {
+    float: left;
+    margin: 10px 0 0 120px;
+}
+
+.search {
+    float: right;
+    margin: 30px 0 0 0;
+}
+
+.inpt {
+    background: url(images/saerch-inpt-bg.png) left top no-repeat;
+    float: left;
+    height: 31px;
+    width: 250px;
+}
+
+.inpt input {
+    background: none;
+    border: 0;
+    margin: 7px 0 0 10px;
+    width: 230px;
+}
+
+.clearStyle {
+    clear: both;
+}
+
+.menu {
+    list-style: none;
+    margin: 8px 0 0 0;
+    overflow: hidden;
+}
+
+.menu li {
+    float: left;
+    margin: 0 0 0 20px;
+}
+
+.menu li a {
+    color: aliceblue;
+    text-transform: uppercase;
+    font-size: 16px;
+    text-decoration: none;
+    padding: 4px 20px;
+    display: block;
+}
+
+.menu li a:hover {
+    color: aliceblue;
+    text-transform: uppercase;
+    font-size: 16px;
+    text-decoration: none;
+    background: url("images/menu-hov.jpg") top repeat-x;
+    padding: 4px 20px;
+    display: block;
+}
+
+.content-main {
+    background: url("images/content-bg.jpg") center top no-repeat;
+    margin: 30px 0 0 0;
+    padding: 280px 0 0 0;
+    overflow: hidden;
+}
+
+.left-bar {
+    float: left;
+    width: 210px;
+    padding: 0 0 0 15px;
+}
+
+.vidget {
+    background: #ffeeb7;
+    width: 209px;
+    padding: 0 0 15px 0;
+}
+
+.vidget h2 {
+    background: #ca2a27 url(images/side-h.jpg) top center no-repeat;
+    font: bold 15px Arial;
+    color: #fff;
+    text-align: center;
+    padding: 5px 0;
+    border-bottom: 1px solid #fff;
+    margin: 0 0 15px 0;
+}
+
+.vidget ul {
+    list-style: none;
+}
+
+.vidget li {
+    border-top: 1px solid #fff;
+    margin: 0 10px;
+    padding: 7px 10px 7px 20px;
+}
+
+.vidget li:first-child {
+    border-top: none;
+    margin: 0 10px;
+    padding: 7px 10px 7px 20px;
+}
+
+.vidget li a {
+    font: bold 13px Arial;
+    color: #434343;
+    text-decoration: none;
+}
+
+.vidget li a:hover {
+    font: bold 13px Arial;
+    color: #434343;
+    text-decoration: underline;
+}
+
+.content {
+    padding: 0 0 0 2px;
+    overflow: hidden;
+}
+
+.content h1 {
+    font: bold 20px Arial;
+    text-transform: uppercase;
+    margin: 25px 0 15px 25px;
+}
+
+.product-main {
+    float: left;
+    margin: 0 0 40px 26px;
+}
+
+.product-main img {
+    display: block;
+    margin: 0 auto;
+    border: 1px solid #c6c6c6;
+}
+
+.product-main h2 {
+    margin: 5px 0 0 0;
+}
+
+.product-main h2 a {
+    font: bold 15px Arial;
+    text-decoration: none;
+    color: #292929;
+}
+
+.product-main h2 a:hover {
+    font: bold 15px Arial;
+    text-decoration: underline;
+    color: #292929;
+}
+
+.product-main p {
+    font: 13px Arial;
+    color: #292929;
+}
+
+.product-main p span {
+    font: 13px Arial;
+    color: #bc2e22;
+}
+
+.pager{
+    list-style: none;
+    overflow: hidden;
+    border-bottom: 1px solid #cdcdc8;
+    margin: 0px 15px 0 20px;
+    padding: 0 0 12px 297px;
+}
+
+        .pager li {
+            float: left;
+        }
+
+        .pager li a {
+            display: block;
+            font: bold 14px Arial;
+            color: #b20e00;
+            text-decoration: none;
+            padding: 3px 8px;
+        }
+
+        .pager li a:hover {
+            display: block;
+            font: bold 14px Arial;
+            color: #fff;
+            background: #b20e00;
+            text-decoration: none;
+            padding: 3px 8px;
+        }
+
+        a.act {
+            display: block;
+            font: bold 14px Arial;
+            color: #fff !important;
+            background: #b20e00;
+            text-decoration: none;
+            padding: 3px 8px;
+        }
+.footer {
+    background:#5f0d02 url(images/footer-bg.jpg) top repeat-x; overflow:hidden; margin:20px 0 0 0;
+}
+.footer-in{
+    width:880px; margin:0 auto; overflow:hidden; padding: 20px 30px;
+}
+.foot-cat{
+    float:left; margin: 0 20px 0 0; overflow:hidden;
+}
+.foot-cat h3{
+    font:bold 16px Arial; color:#fff; margin-bottom:15px;
+}
+.foot-cat ul{
+    list-style:none; float:left; margin: 0 30px 0 0;
+}
+.foot-cat ul li{
+}
+.foot-cat ul li a{
+    font: 13px Arial; color:#cfcfcf; text-decoration:none;
+}
+.foot-cat ul li a:hover{
+    font: 13px Arial; color:#cfcfcf; text-decoration: underline;
+}
+.copy{
+    float:right; width: 350px; margin:30px 0 0 0;
+}
+.copy p{
+    font: 13px Arial; color:#cfcfcf; margin: 30px 0 0;
+}
+.copy img{
+    float:left; margin: 0 20px 0 0;
+}
+.copy p a{
+    font: 13px Arial; color:#ffe037;
+}
+.copy p a:hover{
+    font: 13px Arial; color:#ffe037; text-decoration:none;
+}
